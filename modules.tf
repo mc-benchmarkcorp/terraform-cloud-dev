@@ -9,7 +9,7 @@ module "compute_instance" {
   version = "0.0.3"
 
   amount = 1
-  image = "ubuntu-2004-lts"
+  image = "ubuntu-os-cloud/ubuntu-2004-lts"
   name_prefix = "telus"
   project = "${var.compute_instance_project}"
   subnetwork = "subnet-01"
