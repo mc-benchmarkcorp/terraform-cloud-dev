@@ -13,6 +13,5 @@ module "compute_instance" {
   project = var.compute_instance_project
   network = "manage-vpc"
   subnetwork = "manage-subnet-01"
-  subnetwork_project = var.compute_instance_project
   zone = "us-east1-b"
 }
