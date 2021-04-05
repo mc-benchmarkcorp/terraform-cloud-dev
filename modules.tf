@@ -2,7 +2,7 @@
 // Modules
 module "compute_instance" {
   source  = "app.terraform.io/Benchmark/compute_instance/google"
-  version = "0.0.4"
+  version = "0.0.5"
   subnetwork   = "subnet-01"
   zone         = "us-east1-b"
   tags = "ssh"
